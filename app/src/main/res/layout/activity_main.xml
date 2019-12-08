@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorblue"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <LinearLayout
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@mipmap/logo" />
+            <TextView
+                android:id="@+id/title_template"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nreservez_facilement_nvotre_billet_de_train_nau_milleur_prix"
+                android:textColor="@color/colorAccent"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="52dp"
+                android:layout_marginVertical="15dp"
+
+                android:src="@drawable/ic_train_black_24dp" />
+
+            <EditText
+                android:id="@+id/textView"
+                android:layout_width="327dp"
+                android:layout_height="52dp"
+                android:layout_margin="15dp"
+                android:hint="@string/gare_de_d_part"
+                android:background="@color/colorwhite"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_marginVertical="15dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_train_black_24dp" />
+
+            <EditText
+                android:id="@+id/textView3"
+                android:layout_width="327dp"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:hint="@string/garre_d_arriver"
+                android:gravity="center"
+                android:background="@color/colorwhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal">
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aller_simple"
+                android:textColor="@color/colorwhite" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aller_retour"
+                android:textColor="@color/colorwhite" />
+</RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="188dp"
+                android:layout_height="31dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/colorwhite"
+                android:ems="10"
+                android:inputType="date"
+                android:hint="@string/date_de_voyage"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="269dp"
+                android:layout_height="31dp"
+                android:background="@color/colorwhite"
+                android:hint="@string/date_de_vente"
+                android:ems="10"
+                android:inputType="date" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal">
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1_re_classe"
+                android:textColor="@color/colorwhite"
+                android:layout_marginEnd="10dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_2_me_classe"
+                android:textColor="@color/colorwhite" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/adulte_26_59"
+                android:textColor="@color/colorwhite"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/senior_60"
+                android:textColor="@color/colorwhite"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jeune_15_25"
+                android:textColor="@color/colorwhite"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enfan_0_14"
+                android:textColor="@color/colorwhite" />
+
+        </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_gravity="center_horizontal">
+
+
+                        <Spinner
+                                            android:id="@+id/spinner"
+                                            android:layout_width="74dp"
+                                            android:layout_height="35dp"
+                                            android:background="@color/colorwhite"
+                                    android:layout_marginEnd="10dp"
+                                            />
+                                       <Spinner
+                                            android:id="@+id/spinner2"
+                                            android:layout_width="76dp"
+                                            android:layout_height="35dp"
+                                            android:background="@color/colorwhite"
+                                            android:layout_marginEnd="10dp"/>
+
+                                        <Spinner
+                                            android:id="@+id/spinner3"
+                                            android:layout_width="77dp"
+                                            android:layout_height="33dp"
+                                            android:background="@color/colorwhite"
+                                            android:layout_marginEnd="10dp"/>
+
+                                        <Spinner
+                                            android:id="@+id/spinner4"
+                                            android:layout_width="77dp"
+                                            android:layout_height="35dp"
+                                            android:background="@color/colorwhite"/>
+                </LinearLayout>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="281dp"
+            android:layout_height="45dp"
+            android:layout_marginVertical="30dp"
+            android:background="@color/coloryellow"
+            android:text="@string/confirmer"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Facture" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Facture">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorblue">
+
+        <TextView
+            android:id="@+id/titlee"
+            android:layout_width="347dp"
+            android:layout_height="89dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/ref_rence_de_facture"
+            android:textColor="@color/colorwhite"
+            android:textSize="25sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorwhite"
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:id="@+id/attr"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dateVente"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="88dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/date_de_vente"
+            android:textColor="#000000"
+            android:textSize="22sp"></TextView>
+        <EditText
+            android:id="@+id/date_Vente"
+            android:layout_height="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+          >
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/dateVoyage"
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:layout_marginLeft="15dp"
+
+            android:gravity="center_vertical"
+            android:text="@string/date_de_voyage"
+            android:textColor="#000000"
+            android:textSize="22sp">
+
+        </TextView>
+    <EditText
+        android:id="@+id/date_Voyage"
+        android:layout_height="88dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        >
+
+    </EditText>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/numVoyage"
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:layout_marginLeft="15dp"
+
+            android:gravity="center_vertical"
+            android:text="@string/num_ro_de_voyage"
+            android:textColor="#000000"
+            android:textSize="22sp">
+
+        </TextView>
+    <EditText
+        android:id="@+id/num_voy"
+        android:layout_height="88dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        >
+
+    </EditText>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/departde"
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:layout_marginLeft="15dp"
+
+            android:gravity="center_vertical"
+            android:text="@string/d_part_de"
+            android:textColor="#000000"
+            android:textSize="22sp">
+
+        </TextView>
+    <EditText
+        android:id="@+id/dte_dep"
+        android:layout_height="88dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        >
+
+    </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/arrive"
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:layout_marginLeft="15dp"
+
+            android:gravity="center_vertical"
+            android:text="@string/arive"
+            android:textColor="#000000"
+            android:textSize="22sp">
+
+        </TextView>
+            <EditText
+                android:id="@+id/arr"
+                android:layout_height="88dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                >
+
+            </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorwhite"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="232dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:text="@string/montant_pay"
+            android:textColor="#000000"
+            android:textSize="25sp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/somme"
+            android:layout_height="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/voire_facture" />
+
+
+</LinearLayout>
+</ScrollView>

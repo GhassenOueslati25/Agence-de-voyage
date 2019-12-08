@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Agence de voyage</string>
+    <string name="name">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="_1_re_classe">1ère classe</string>
+    <string name="gare_de_d_part">Gare de départ</string>
+    <string name="garre_d_arriver">Garre d\'arriver</string>
+    <string name="nreservez_facilement_nvotre_billet_de_train_nau_milleur_prix">RESERVEZ FACILEMENT VOTRE BILLET DE TRAIN AU MILLEUR PRIX</string>
+    <string name="aller_simple">Aller simple</string>
+    <string name="aller_retour">Aller-Retour</string>
+    <string name="_2_me_classe">2ème classe</string>
+    <string name="adulte_26_59">Adulte(26-59)</string>
+    <string name="senior_60">Senior(+60)</string>
+    <string name="jeune_15_25">jeune(15-25)</string>
+    <string name="enfan_0_14">enfan(0-14)</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="paiement">Paiement</string>
+    <string name="cin">Cin :</string>
+    <string name="num_ro_de_la_carte">Numéro de la carte :</string>
+    <string name="mot_de_passe">Mot de passe :</string>
+    <string name="valider">Valider</string>
+    <string name="annuler">Annuler</string>
+    <string name="ref_rence_de_facture">Reférence de facture :</string>
+    <string name="date_de_vente">Date de vente :</string>
+    <string name="date_de_voyage">Date de voyage :</string>
+    <string name="num_ro_de_voyage">Numéro de voyage :</string>
+    <string name="d_part_de">Départ de :</string>
+    <string name="arive">Arive à :</string>
+    <string name="montant_pay">Montant payé :</string>
+    <string name="voire_facture">voire facture</string>
+    <string-array name="spinner">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+
+</resources>
